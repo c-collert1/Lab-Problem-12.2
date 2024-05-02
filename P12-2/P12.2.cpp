@@ -33,7 +33,6 @@ int characterCount(const string& fileName) {
 
     if (!inFile.is_open()) {
         cout << "Failed to open file." << endl;
-        return -1;
     }
 
     while (inFile.get(characters)) {
